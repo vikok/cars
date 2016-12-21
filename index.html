@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Start</title>
+	<title>Luxury Cars</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,16 +18,51 @@
 	<![endif]-->
 </head>
 <body>
-	<header class="ba-header">
+	<!-- BEGIN ba-container  -->
+	<div class="ba-container">
+	<!-- BEGIN ba-cars  -->
+	<div class="ba-cars">
+		<header class="ba-header cf">
+			<h1 class="ba-logo">luxury<a href="#" class="ba-logo--general">cars</a></h1>
 
-	</header>
-	<main>
+			<nav class="ba-header-nav">
+				<ul class="ba-menu">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">VEHICLES</a></li>
+					<li><a href="#">SELF DRIVE</a></li>
+					<li><a href="#">LOCATIONS</a></li>
+					<li><a href="#" class="ba-menu__demo">DEMO</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<!-- BEGIN ba-slider  -->
+			<div class="ba-slider">
+			  <h2>Premium Luxury Cars</h2>
+			  <div><img class="ba-car" src="img/car.png" alt="car"></div>
+			  <div><img class="ba-car" src="img/car.png" alt="car"></div>
+			  <div><img class="ba-car" src="img/car.png" alt="car"></div>
 
-	</main>
+			</div>
+			<!-- END ba-slider -->
+			<!-- BEGIN ba-type-slider  -->
+			<div class="ba-type-slider">
+			    <h3>AIRPORT TRANSFER</h3>
+			    <h3>BUSINESS TRAVEL</h3>
+			    <h3>WEEKEND TOUR</h3>
+			    <h3>INTERCITY RIDE</h3>
+			</div>
+			<!-- END ba-type-slider -->
+		</main>
+	</div>
+	<!-- END ba-cars -->
+	</div>
+	<!-- END ba-container -->
 	<footer class="ba-footer">
 
 	</footer>
 	<script src="js/jquery-3.1.1.min.js"></script>
+	<script type="js/slick.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

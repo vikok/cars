@@ -1,16 +1,19 @@
 @import "normalize";
 @import "layout";
+@import "slick";
 
 body{
-
+	font: 600 14px/1.3 "Arial", sans-serif;
+	background: #1E073A url("../img/bg.jpg") 50% no-repeat;
+	background-size: cover;
+	color: #fff;
 }
 
 
 
 /* Layout */
 .ba-container{
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 20px 20px 20px;
 	max-width: 1200px;
 }
 
@@ -62,4 +65,91 @@ select:focus {
 }
 textarea {
 
+}
+
+.ba-cars{
+	background: rgb(128,15,207);
+background: -webkit-linear-gradient(bottom left, rgba(128,15,207,1) 0%, rgba(26,50,178,1) 100%);
+background: -o-linear-gradient(bottom left, rgba(128,15,207,1) 0%, rgba(26,50,178,1) 100%);
+background: linear-gradient(to top right, rgba(128,15,207,1) 0%, rgba(26,50,178,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800fcf', endColorstr='#1a32b2',GradientType=1 );
+
+	padding: 37px 43px;
+
+}
+.ba-header{
+	margin-bottom: 119px;
+}
+.ba-logo{
+	float: left;
+	text-transform: uppercase;
+	font-size: 16px;
+	a{
+	text-decoration: none;
+	color: #ff640b;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-left: 10px;
+	}
+}
+
+.ba-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+	height: 60px;
+    line-height: 60px;
+	a{
+	font-size: 14px;
+	font-weight: 600;
+	color: #4359C0;
+	text-decoration: none;
+	margin: 0 30px;
+	}
+	a:hover{
+	color: #fff;
+	}
+	li{
+	float: left;
+	vertical-align: middle;
+	}
+	&__demo{
+	margin-right: 0;
+	border-radius: 17px;
+	background-color:  #ff5d05;
+	width: 91px;
+	height: 34px;
+	box-shadow: 0px 32px 96px 0px rgba(248, 32, 140, 0.5);
+	}
+}
+
+.ba-slider{
+	h2{
+	font-size: 48px;
+	font-weight: 300;
+	text-align: center;
+	text-shadow: 0px 14px 10px rgba(17, 16, 83, 0.45);
+	margin-bottom: 65px;
+	}
+}
+.ba-car{
+	width: 860px;
+	height: 406px;
+	text-align: center;
+}
+.ba-type-slider{
+	h3{
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	background-color:  #ff5a0f;
+	width: 306px;
+	height: 88px;
+	cursor: pointer;
+	line-height: 88px;
+	}
+	h3:hover{
+	background-color:  #6319c8;
+	}
 }
